@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "quote": "Hello World!"
+  },
+  {
+    "id": 2,
+    "quote": "They're taking the Hobbits to Isengard!"
+  },
+  {
+    "id": 3,
+    "quote": "Frankly, my dear, I don't give a damn."
+  },
+  {
+    "id": 4,
+    "quote": "What we've got here is failure to communicate."
+  },
+  {
+    "id": 5,
+    "quote": "Remember, all I'm offering is the truth. Nothing more."
+  },
+  {
+    "id": 6,
+    "quote": "You can't handle the truth!"
+  },
+  {
+    "id": 7,
+    "quote": "He who controls the spice controls the universe."
+  },
+  {
+    "id": 8,
+    "quote": "I find your lack of faith ... disturbing."
+  },
+  {
+    "id": 9,
+    "quote": "I didn't come here to discuss it, I came here to say it."
+  },
+  {
+    "id": 10,
+    "quote": "Live long and prosper."
+  },
+  {
+    "id": 11,
+    "quote": "Happy birthday!"
+  }
+]
