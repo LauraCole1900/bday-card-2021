@@ -20,7 +20,7 @@
   ## Screenshot
 
   Happy Birthday:
-  ![Happy birthday](images/#.png)
+  ![Happy birthday](images/happy-birthday.png)
 
   ## Installation Instructions
 

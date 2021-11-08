@@ -6,38 +6,40 @@ import Confetti from "react-confetti";
 import Typed from "typed.js";
 
 const Birthday = (props) => {
-  let quoteArr = [];
   const currentText = useRef("");
-  const [confettiReady, setConfettiReady] = useState(false);
+  const [confetti, setConfetti] = useState(0);
+  let quoteArr = [];
 
   props.quotes.forEach(quote => {
     quoteArr = [...quoteArr, quote.quote]
     return quoteArr
   });
-  console.log({ quoteArr });
 
 
   useEffect(() => {
+    const timer = setTimeout(() => {
+      setConfetti(true)
+    }, 45000);
+    
     const options = {
       strings: quoteArr,
       typeSpeed: 50,
       backSpeed: 30,
       loop: false,
-      showCursor: true
+      showCursor: true,
+      cursorChar: "_",
     }
-    console.log(options.strings);
-    const typed = new Typed("#texts", options);
-
     
-    if (currentText.current.innerHTML === quoteArr[quoteArr.length - 1]) {
-      setConfettiReady(true);
-    }
-     
+    const typed = new Typed("#texts", options);
+    
+    // typed.typingComplete ? setConfetti(true) : setConfetti(false);
+    
     return () => {
       typed.destroy();
+      clearTimeout(timer);
     }
-    
-  }, [confettiReady])
+
+  });
 
 
   return (
@@ -45,7 +47,7 @@ const Birthday = (props) => {
       <Row>
         <Col sm={3} className="center">
           <section id="texts" ref={currentText}></section>
-          {confettiReady === true &&
+          {(confetti === true) &&
             <Confetti />}
         </Col>
       </Row>
