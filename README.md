@@ -32,7 +32,7 @@
 
   ## Technologies Used
 
-  [![Node.js](https://img.shields.io/badge/built%20with-Node.js-3c873a)](https://nodejs.org/en/) [![React](https://img.shields.io/badge/built%20with-React-61dbfb)](https://reactjs.org/) [![React-Bootstrap](https://img.shields.io/badge/built%20with-React-Bootstrap-61dbfb)](https://react-bootstrap.github.io/)) [![React-confetti](https://img.shields.io/badge/built%20with-React-Bootstrap-cc3534)](https://www.npmjs.com/package/react-confetti)]
+  [![Node.js](https://img.shields.io/badge/built%20with-Node.js-3c873a)](https://nodejs.org/en/) [![React](https://img.shields.io/badge/built%20with-React-61dbfb)](https://reactjs.org/) [![React-Bootstrap](https://img.shields.io/badge/built%20with-React%20Bootstrap-61dbfb)](https://react-bootstrap.github.io/) [![React-confetti](https://img.shields.io/badge/built%20with-React%20Confetti-cc3534)](https://www.npmjs.com/package/react-confetti)
 
   ## Tests
 
