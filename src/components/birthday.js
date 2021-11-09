@@ -7,7 +7,7 @@ import Typed from "typed.js";
 
 const Birthday = (props) => {
   const currentText = useRef("");
-  const [confetti, setConfetti] = useState(0);
+  const [confetti, setConfetti] = useState(false);
   let quoteArr = [];
 
   props.quotes.forEach(quote => {
@@ -19,23 +19,35 @@ const Birthday = (props) => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setConfetti(true)
-    }, 45000);
-    
-    const options = {
-      strings: quoteArr,
-      typeSpeed: 50,
-      backSpeed: 30,
-      loop: false,
-      showCursor: true,
-      cursorChar: "_",
+    }, 39066);
+
+    while (confetti === false) {
+      const options = {
+        strings: quoteArr,
+        typeSpeed: 50,
+        backSpeed: 30,
+        loop: false,
+        showCursor: true,
+        cursorChar: "_",
+      }
+      const typed = new Typed("#texts", options);
+      return () => typed.destroy();
     }
-    
-    const typed = new Typed("#texts", options);
-    
-    // typed.typingComplete ? setConfetti(true) : setConfetti(false);
-    
+
+    if (confetti === true) {
+      const options = {
+        strings: ["Happy birthday"],
+        typeSpeed: 50,
+        backSpeed: 30,
+        loop: false,
+        showCursor: true,
+        cursorChar: "_",
+      }
+      const typed = new Typed("#texts", options);
+      return () => typed.destroy();
+    }
+
     return () => {
-      typed.destroy();
       clearTimeout(timer);
     }
 
