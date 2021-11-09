@@ -57,4 +57,4 @@ If you have further questions, you can reach me at lauracole1900@comcast.net. Fo
 
 ## Badges
 
-![License badge](https://img.shields.io/badge/license-MIT-000000) [![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/LauraCole1900/bday-card-2021)
+[![License badge](https://img.shields.io/badge/license-MIT-000000)](./LICENSE) [![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/LauraCole1900/bday-card-2021)
