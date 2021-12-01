@@ -19,7 +19,7 @@ const Birthday = (props) => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setConfetti(true)
-    }, 39066);
+    }, 39500);
 
     while (confetti === false) {
       const options = {
