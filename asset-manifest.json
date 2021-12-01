@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/bday-card-2021/static/css/main.467cfa65.chunk.css",
-    "main.js": "/bday-card-2021/static/js/main.066dc1d8.chunk.js",
-    "main.js.map": "/bday-card-2021/static/js/main.066dc1d8.chunk.js.map",
+    "main.js": "/bday-card-2021/static/js/main.8542d922.chunk.js",
+    "main.js.map": "/bday-card-2021/static/js/main.8542d922.chunk.js.map",
     "runtime-main.js": "/bday-card-2021/static/js/runtime-main.5bf07281.js",
     "runtime-main.js.map": "/bday-card-2021/static/js/runtime-main.5bf07281.js.map",
     "static/js/2.01051b60.chunk.js": "/bday-card-2021/static/js/2.01051b60.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.5bf07281.js",
     "static/js/2.01051b60.chunk.js",
     "static/css/main.467cfa65.chunk.css",
-    "static/js/main.066dc1d8.chunk.js"
+    "static/js/main.8542d922.chunk.js"
   ]
 }
