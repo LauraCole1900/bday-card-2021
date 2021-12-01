@@ -36,7 +36,7 @@ const Birthday = (props) => {
 
     if (confetti === true) {
       const options = {
-        strings: ["Happy birthday"],
+        strings: ["Happy birthday^5000", "Have fun storming the castle!"],
         typeSpeed: 50,
         backSpeed: 30,
         loop: false,
